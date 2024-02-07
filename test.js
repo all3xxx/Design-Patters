@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./index'); 
+const app = require('./api'); 
 
 describe('Testando API de lançamento de dados', () => {
     it('Deve simular um lançamento básico de dados', async () => {

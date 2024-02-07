@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 
+module.exports = app;
+
 const {DiceRoll, BasicDiceRoll, DiceRollDecorator} = require("./Decorator");
 
 app.use(express.json());
